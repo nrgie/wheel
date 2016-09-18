@@ -10,7 +10,7 @@ var app = {
     },
 
     onDeviceReady: function() {
-	$.getScript('http://op.genesisgo.us/ar/ar2.js');
+	$.getScript('http://op.genesisgo.us/wheel/app.js');
     },
 
     receivedEvent: function(id) {}

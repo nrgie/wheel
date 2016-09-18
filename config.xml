@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.holostorecard.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>3DHoloStore AR</name>
-    <description>3D Holostorecard AR</description>
+<widget id="com.holostore.prayerwheel" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Prayer Wheel</name>
+    <description>Prayer Wheel</description>
     <author email="info@3dholostorecard.com" href="http://3dholostorecard.com">nrgie</author>
     <content src="index.html" />
     <icon src="img/logo.png" />
