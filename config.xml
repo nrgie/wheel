@@ -53,6 +53,7 @@
         <icon src="img/logo.png" width="100" height="100" />
 	
     </platform>
+    <preference name="orientation" value="landscape" />
     <preference name="EnableWebGL" value="true" />
     <preference name="xwalkVersion" value="19+" />
     <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
