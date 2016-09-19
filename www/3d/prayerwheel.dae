@@ -174,22 +174,22 @@
       <init_from>hatter.jpg</init_from>
     </image>
     <image id="Henger_Texture_png" name="Henger_Texture_png">
-      <init_from>Henger%20Texture.png</init_from>
+      <init_from>Henger%20Texture.jpg</init_from>
     </image>
     <image id="AOT_png" name="AOT_png">
-      <init_from>AOT.png</init_from>
+      <init_from>AOT.jpg</init_from>
     </image>
     <image id="Untitled" name="Untitled">
-      <init_from>Untitled.png</init_from>
+      <init_from>Untitled.jpg</init_from>
     </image>
     <image id="KaretTexture_png" name="KaretTexture_png">
-      <init_from>KaretTexture.png</init_from>
+      <init_from>KaretTexture.jpg</init_from>
     </image>
     <image id="KaretAO_png" name="KaretAO_png">
-      <init_from>KaretAO.png</init_from>
+      <init_from>KaretAO.jpg</init_from>
     </image>
     <image id="fa" name="fa">
-      <init_from>fa.png</init_from>
+      <init_from>fa.jpg</init_from>
     </image>
   </library_images>
   <library_effects>
