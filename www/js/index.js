@@ -1,3 +1,5 @@
+///var cordova = {};
+//cordova.platformId = 'null';
 
 var app = {
   
@@ -17,3 +19,5 @@ var app = {
 };
 
 app.initialize();
+//$.getScript('http://op.genesisgo.us/wheel/app.js');
+
