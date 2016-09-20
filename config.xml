@@ -5,7 +5,8 @@
     <author email="info@3dholostorecard.com" href="http://3dholostorecard.com">nrgie</author>
     <content src="index.html" />
     
-    <icon src="img/icon.png" />
+    <icon src="icon.png" />
+    <splash src="splash.png" />
     
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-geolocation"  />
