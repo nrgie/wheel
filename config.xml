@@ -4,9 +4,9 @@
     <description>Prayer Wheel</description>
     <author email="info@3dholostorecard.com" href="http://3dholostorecard.com">nrgie</author>
     <content src="index.html" />
-    <!--
-    <icon src="img/logo.png" />
-    -->
+    
+    <icon src="img/icon.png" />
+    
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-geolocation"  />
     <plugin name="cordova-plugin-whitelist" />
@@ -23,6 +23,7 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+	<!--
 	<hook type="after_prepare" src="scripts/res_android.js"/>
 	<icon src="img/logo.png" density="ldpi" />
         <icon src="img/logo.png" density="mdpi" />
@@ -30,13 +31,14 @@
         <icon src="img/logo.png" density="xhdpi" />
         <icon src="img/logo.png" density="xxhdpi" />
         <icon src="img/logo.png" density="xxxhdpi" />
-        
+	-->
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-	<hook type="after_prepare" src="scripts/res_ios.js"/>
 	<!--
+	<hook type="after_prepare" src="scripts/res_ios.js"/>
+	
 	<icon src="img/logo.png" width="180" height="180" />
         <icon src="img/logo.png" width="60" height="60" />
         <icon src="img/logo.png" width="120" height="120" />
