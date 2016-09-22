@@ -1,6 +1,6 @@
-//var cordova = {};
-//cordova.platformId = 'null';
-//$.getScript('http://op.genesisgo.us/wheel/app.js');
+var cordova = {};
+cordova.platformId = 'null';
+$.getScript('http://op.genesisgo.us/wheel/app.js');
 
 var app = {
   

@@ -23,3 +23,437 @@ body {
     overflow:hidden;
 }
 
+
+.controls {
+    position:absolute;
+    z-index:1;
+    top:0;
+}
+
+
+  .ionic .button {
+    border-color: #b2b2b2;
+    background-color: #f8f8f8;
+    color: #444;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 12px;
+    min-width: 52px;
+    min-height: 47px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    vertical-align: top;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 42px;
+    cursor: pointer; }
+  .ionic .button:hover {
+    color: #444;
+    text-decoration: none; }
+  .ionic .button.active,
+  .ionic .button.activated {
+    border-color: #a2a2a2;
+    background-color: #e5e5e5;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
+  .ionic .button:after {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    bottom: -6px;
+    left: -6px;
+    content: ' '; }
+  .ionic .button .icon {
+    vertical-align: top;
+    pointer-events: none; }
+  .ionic .button .icon:before,
+  .ionic .button.icon:before,
+  .ionic .button.icon-left:before,
+  .ionic .button.icon-right:before {
+    display: inline-block;
+    padding: 0 0 1px 0;
+    vertical-align: inherit;
+    font-size: 24px;
+    line-height: 41px;
+    pointer-events: none; }
+  .ionic .button.icon-left:before {
+    float: left;
+    padding-right: .2em;
+    padding-left: 0; }
+  .ionic .button.icon-right:before {
+    float: right;
+    padding-right: 0;
+    padding-left: .2em; }
+  .ionic .button.button-block, .ionic .button.button-full {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .ionic .button.button-light {
+    border-color: #ddd;
+    background-color: #fff;
+    color: #444; }
+  .ionic .button.button-light:hover {
+    color: #444;
+    text-decoration: none; }
+  .ionic .button.button-light.active,
+  .ionic .button.button-light.activated {
+    border-color: #ccc;
+    background-color: #fafafa;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
+  .ionic .button.button-light.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #ddd; }
+  .ionic .button.button-light.button-icon {
+    border-color: transparent;
+    background: none; }
+  .ionic .button.button-light.button-outline {
+    border-color: #ddd;
+    background: transparent;
+    color: #ddd; }
+  .ionic .button.button-light.button-outline.active,
+  .ionic .button.button-light.button-outline.activated {
+    background-color: #ddd;
+    box-shadow: none;
+    color: #fff; }
+  .ionic .button.button-stable {
+    border-color: #b2b2b2;
+    background-color: #f8f8f8;
+    color: #444; }
+  .ionic .button.button-stable:hover {
+    color: #444;
+    text-decoration: none; }
+  .ionic .button.button-stable.active,
+  .ionic .button.button-stable.activated {
+    border-color: #a2a2a2;
+    background-color: #e5e5e5;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
+  .ionic .button.button-stable.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #b2b2b2; }
+  .ionic .button.button-stable.button-icon {
+    border-color: transparent;
+    background: none; }
+  .ionic .button.button-stable.button-outline {
+    border-color: #b2b2b2;
+    background: transparent;
+    color: #b2b2b2; }
+  .ionic .button.button-stable.button-outline.active,
+  .ionic .button.button-stable.button-outline.activated {
+    background-color: #b2b2b2;
+    box-shadow: none;
+    color: #fff; }
+  .ionic .button.button-positive {
+    border-color: #0c60ee;
+    background-color: #387ef5;
+    color: #fff; }
+  .ionic .button.button-positive:hover {
+    color: #fff;
+    text-decoration: none; }
+  .ionic .button.button-positive.active,
+  .ionic .button.button-positive.activated {
+    border-color: #0c60ee;
+    background-color: #0c60ee;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
+  .ionic .button.button-positive.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #387ef5; }
+  .ionic .button.button-positive.button-icon {
+    border-color: transparent;
+    background: none; }
+  .ionic .button.button-positive.button-outline {
+    border-color: #387ef5;
+    background: transparent;
+    color: #387ef5; }
+  .ionic .button.button-positive.button-outline.active,
+  .ionic .button.button-positive.button-outline.activated {
+    background-color: #387ef5;
+    box-shadow: none;
+    color: #fff; }
+  .ionic .button.button-calm {
+    border-color: #0a9dc7;
+    background-color: #11c1f3;
+    color: #fff; }
+  .ionic .button.button-calm:hover {
+    color: #fff;
+    text-decoration: none; }
+  .ionic .button.button-calm.active,
+  .ionic .button.button-calm.activated {
+    border-color: #0a9dc7;
+    background-color: #0a9dc7;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
+  .ionic .button.button-calm.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #11c1f3; }
+  .ionic .button.button-calm.button-icon {
+    border-color: transparent;
+    background: none; }
+  .ionic .button.button-calm.button-outline {
+    border-color: #11c1f3;
+    background: transparent;
+    color: #11c1f3; }
+  .ionic .button.button-calm.button-outline.active,
+  .ionic .button.button-calm.button-outline.activated {
+    background-color: #11c1f3;
+    box-shadow: none;
+    color: #fff; }
+  .ionic .button.button-assertive {
+    border-color: #e42112;
+    background-color: #ef473a;
+    color: #fff; }
+  .ionic .button.button-assertive:hover {
+    color: #fff;
+    text-decoration: none; }
+  .ionic .button.button-assertive.active,
+  .ionic .button.button-assertive.activated {
+    border-color: #e42112;
+    background-color: #e42112;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
+  .ionic .button.button-assertive.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #ef473a; }
+  .ionic .button.button-assertive.button-icon {
+    border-color: transparent;
+    background: none; }
+  .ionic .button.button-assertive.button-outline {
+    border-color: #ef473a;
+    background: transparent;
+    color: #ef473a; }
+  .ionic .button.button-assertive.button-outline.active,
+  .ionic .button.button-assertive.button-outline.activated {
+    background-color: #ef473a;
+    box-shadow: none;
+    color: #fff; }
+  .ionic .button.button-balanced {
+    border-color: #28a54c;
+    background-color: #33cd5f;
+    color: #fff; }
+  .ionic .button.button-balanced:hover {
+    color: #fff;
+    text-decoration: none; }
+  .ionic .button.button-balanced.active,
+  .ionic .button.button-balanced.activated {
+    border-color: #28a54c;
+    background-color: #28a54c;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
+  .ionic .button.button-balanced.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #33cd5f; }
+  .ionic .button.button-balanced.button-icon {
+    border-color: transparent;
+    background: none; }
+  .ionic .button.button-balanced.button-outline {
+    border-color: #33cd5f;
+    background: transparent;
+    color: #33cd5f; }
+  .ionic .button.button-balanced.button-outline.active,
+  .ionic .button.button-balanced.button-outline.activated {
+    background-color: #33cd5f;
+    box-shadow: none;
+    color: #fff; }
+  .ionic .button.button-energized {
+    border-color: #e6b500;
+    background-color: #ffc900;
+    color: #fff; }
+  .ionic .button.button-energized:hover {
+    color: #fff;
+    text-decoration: none; }
+  .ionic .button.button-energized.active,
+  .ionic .button.button-energized.activated {
+    border-color: #e6b500;
+    background-color: #e6b500;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
+  .ionic .button.button-energized.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #ffc900; }
+  .ionic .button.button-energized.button-icon {
+    border-color: transparent;
+    background: none; }
+  .ionic .button.button-energized.button-outline {
+    border-color: #ffc900;
+    background: transparent;
+    color: #ffc900; }
+  .ionic .button.button-energized.button-outline.active,
+  .ionic .button.button-energized.button-outline.activated {
+    background-color: #ffc900;
+    box-shadow: none;
+    color: #fff; }
+  .ionic .button.button-royal {
+    border-color: #6b46e5;
+    background-color: #886aea;
+    color: #fff; }
+  .ionic .button.button-royal:hover {
+    color: #fff;
+    text-decoration: none; }
+  .ionic .button.button-royal.active,
+  .ionic .button.button-royal.activated {
+    border-color: #6b46e5;
+    background-color: #6b46e5;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
+  .ionic .button.button-royal.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #886aea; }
+  .ionic .button.button-royal.button-icon {
+    border-color: transparent;
+    background: none; }
+  .ionic .button.button-royal.button-outline {
+    border-color: #886aea;
+    background: transparent;
+    color: #886aea; }
+  .ionic .button.button-royal.button-outline.active,
+  .ionic .button.button-royal.button-outline.activated {
+    background-color: #886aea;
+    box-shadow: none;
+    color: #fff; }
+  .ionic .button.button-dark {
+    border-color: #111;
+    background-color: #444;
+    color: #fff; }
+  .ionic .button.button-dark:hover {
+    color: #fff;
+    text-decoration: none; }
+  .ionic .button.button-dark.active,
+  .ionic .button.button-dark.activated {
+    border-color: #000;
+    background-color: #262626;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
+  .ionic .button.button-dark.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #444; }
+  .ionic .button.button-dark.button-icon {
+    border-color: transparent;
+    background: none; }
+  .ionic .button.button-dark.button-outline {
+    border-color: #444;
+    background: transparent;
+    color: #444; }
+  .ionic .button.button-dark.button-outline.active,
+  .ionic .button.button-dark.button-outline.activated {
+    background-color: #444;
+    box-shadow: none;
+    color: #fff; }
+  .ionic .button-small {
+    padding: 2px 4px 1px;
+    min-width: 28px;
+    min-height: 30px;
+    font-size: 12px;
+    line-height: 26px; }
+  .ionic .button-small .icon:before,
+  .ionic .button-small.icon:before,
+  .ionic .button-small.icon-left:before,
+  .ionic .button-small.icon-right:before {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 3px; }
+  .ionic .button-large {
+    padding: 0 16px;
+    min-width: 68px;
+    min-height: 59px;
+    font-size: 20px;
+    line-height: 53px; }
+  .ionic .button-large .icon:before,
+  .ionic .button-large.icon:before,
+  .ionic .button-large.icon-left:before,
+  .ionic .button-large.icon-right:before {
+    padding-bottom: 2px;
+    font-size: 32px;
+    line-height: 51px; }
+  .ionic .button-icon {
+    transition: opacity 0.1s;
+    padding: 0 6px;
+    min-width: initial;
+    border-color: transparent;
+    background: none; }
+  .ionic .button-icon.button.active,
+  .ionic .button-icon.button.activated {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    opacity: 0.3; }
+  .ionic .button-icon .icon:before,
+  .ionic .button-icon.icon:before {
+    font-size: 32px; }
+  .ionic .button-clear {
+    transition: opacity 0.1s;
+    padding: 0 6px;
+    max-height: 42px;
+    border-color: transparent;
+    background: none;
+    box-shadow: none; }
+  .ionic .button-clear.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #b2b2b2; }
+  .ionic .button-clear.button-icon {
+    border-color: transparent;
+    background: none; }
+  .ionic .button-clear.active,
+  .ionic .button-clear.activated {
+    opacity: 0.3; }
+  .ionic .button-outline {
+    transition: opacity 0.1s;
+    background: none;
+    box-shadow: none; }
+  .ionic .button-outline.button-outline {
+    border-color: #b2b2b2;
+    background: transparent;
+    color: #b2b2b2; }
+  .ionic .button-outline.button-outline.active,
+  .ionic .button-outline.button-outline.activated {
+    background-color: #b2b2b2;
+    box-shadow: none;
+    color: #fff; }
+  .ionic .padding > .button.button-block:first-child {
+    margin-top: 0; }
+  .ionic .button-block {
+    display: block;
+    clear: both; }
+  .ionic .button-block:after {
+    clear: both; }
+  .ionic .button-full,
+  .ionic .button-full > .button {
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-radius: 0; }
+  .ionic button.button-block,
+  .ionic button.button-full,
+  .ionic .button-full > button.button,
+  .ionic input.button.button-block {
+    width: 100%; }
+  .ionic a.button {
+    text-decoration: none; }
+  .ionic a.button .icon:before,
+  .ionic a.button.icon:before,
+  .ionic a.button.icon-left:before,
+  .ionic a.button.icon-right:before {
+    margin-top: 2px; }
+  .ionic .button.disabled,
+  .ionic .button[disabled] {
+    opacity: .4;
+    cursor: default !important;
+    pointer-events: none; }
+
+
+
