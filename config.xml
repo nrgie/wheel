@@ -87,7 +87,8 @@
 	-->
 	
     </platform>
-    <preference name="orientation" value="portrait" />
+    
+    <preference name="orientation" platform="ios" value="portrait" />
     
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
 	  <true/>
