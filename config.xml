@@ -2,7 +2,7 @@
 <widget id="com.holostore.prayerwheel" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Prayer Wheel</name>
     <description>Prayer Wheel</description>
-    <author email="info@3dholostorecard.com" href="http://3dholostorecard.com">nrgie</author>
+    <author email="info@3dholostorecard.com" href="http://3dholostorecard.com">developer</author>
     <content src="index.html" />
     
     <icon platform="ios" src="res/icons/ios/icon-small.png" width="29" height="29" />
@@ -41,6 +41,15 @@
     <splash platform="android" qualifier="hdpi" src="res/screens/android/screen-hdpi-portrait.png" />
     <splash platform="android" qualifier="xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />
   
+    
+    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait.png" width="320" height="480" />
+    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-2x.png" width="640" height="960" />
+    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-568h-2x.png" width="640" height="1136" />
+    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-667h.png" width="750" height="1334" />
+    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-736h.png" width="1242" height="2208" />
+    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-ipad-portrait.png" width="768" height="1024" />
+    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-ipad-portrait-2x.png" width="1536" height="2048" />
+    
     <!--
     <icon platform="wp8" src="res/icons/wp8/ApplicationIcon.png" width="99" height="99" />
     <icon platform="wp8" src="res/icons/wp8/Background.png" width="159" height="159" />
@@ -79,7 +88,16 @@
 	-->
 	
     </platform>
-    <preference name="orientation" value="landscape" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    
+    <gap:config-file platform="ios" parent="UIStatusBarHidden">
+	  <true/>
+    </gap:config-file>
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+	<false/>
+    </gap:config-file>
+    
     <preference name="EnableWebGL" value="true" />
     <preference name="xwalkVersion" value="19+" />
     <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
