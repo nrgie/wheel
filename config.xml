@@ -53,6 +53,22 @@
     <icon platform="windows" src="res/icons/windows8/storelogo.png" width="50" height="50" />
     -->
     
+    <gap:splash src="splash.png" />
+    
+    <gap:splash gap:platform="android" platform="android" qualifier="ldpi" src="res/screens/android/screen-ldpi-portrait.png" />
+	<gap:splash gap:platform="android" platform="android" qualifier="mdpi" src="res/screens/android/screen-mdpi-portrait.png" />
+	<gap:splash gap:platform="android" platform="android" qualifier="hdpi" src="res/screens/android/screen-hdpi-portrait.png" />
+	<gap:splash gap:platform="android" platform="android" qualifier="xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />
+	
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait.png" width="320" height="480" />
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-2x.png" width="640" height="960" />
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-568h-2x.png" width="640" height="1136" />
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-667h.png" width="750" height="1334" />
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-736h.png" width="1242" height="2208" />
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-ipad-portrait.png" width="768" height="1024" />
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-ipad-portrait-2x.png" width="1536" height="2048" />
+	
+    
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-geolocation"  />
     <plugin name="cordova-plugin-whitelist" />
@@ -74,10 +90,7 @@
 	-->
 	
 	
-	<gap:splash gap:platform="android" platform="android" qualifier="ldpi" src="res/screens/android/screen-ldpi-portrait.png" />
-	<gap:splash gap:platform="android" platform="android" qualifier="mdpi" src="res/screens/android/screen-mdpi-portrait.png" />
-	<gap:splash gap:platform="android" platform="android" qualifier="hdpi" src="res/screens/android/screen-hdpi-portrait.png" />
-	<gap:splash gap:platform="android" platform="android" qualifier="xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />
+	
 	
     </platform>
     <platform name="ios">
@@ -85,13 +98,7 @@
         <allow-intent href="itms-apps:*" />
 	
 	
-	<gap:splash platform="ios"  src="res/screens/ios/screen-iphone-portrait.png" width="320" height="480" />
-	<gap:splash platform="ios"  src="res/screens/ios/screen-iphone-portrait-2x.png" width="640" height="960" />
-	<gap:splash platform="ios"  src="res/screens/ios/screen-iphone-portrait-568h-2x.png" width="640" height="1136" />
-	<gap:splash platform="ios"  src="res/screens/ios/screen-iphone-portrait-667h.png" width="750" height="1334" />
-	<gap:splash platform="ios"  src="res/screens/ios/screen-iphone-portrait-736h.png" width="1242" height="2208" />
-	<gap:splash platform="ios"  src="res/screens/ios/screen-ipad-portrait.png" width="768" height="1024" />
-	<gap:splash platform="ios"  src="res/screens/ios/screen-ipad-portrait-2x.png" width="1536" height="2048" />
+	
 	
 	<!--
 	<hook type="after_prepare" src="scripts/res_ios.js"/>
