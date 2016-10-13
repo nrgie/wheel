@@ -42,13 +42,7 @@
     <splash platform="android" qualifier="xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />
   
     
-    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait.png" width="320" height="480" />
-    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-2x.png" width="640" height="960" />
-    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-568h-2x.png" width="640" height="1136" />
-    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-667h.png" width="750" height="1334" />
-    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-736h.png" width="1242" height="2208" />
-    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-ipad-portrait.png" width="768" height="1024" />
-    <gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-ipad-portrait-2x.png" width="1536" height="2048" />
+    
     
     <!--
     <icon platform="wp8" src="res/icons/wp8/ApplicationIcon.png" width="99" height="99" />
@@ -82,13 +76,23 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+	
+	
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait.png" width="320" height="480" />
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-2x.png" width="640" height="960" />
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-568h-2x.png" width="640" height="1136" />
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-667h.png" width="750" height="1334" />
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-736h.png" width="1242" height="2208" />
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-ipad-portrait.png" width="768" height="1024" />
+	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-ipad-portrait-2x.png" width="1536" height="2048" />
+	
 	<!--
 	<hook type="after_prepare" src="scripts/res_ios.js"/>
 	-->
 	
     </platform>
     
-    <!--
+    
     <preference name="orientation" value="portrait" />
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
 	  <true/>
@@ -96,7 +100,7 @@
     <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
 	<false/>
     </gap:config-file>
-    -->
+    
     
     <preference name="EnableWebGL" value="true" />
     <preference name="xwalkVersion" value="19+" />
