@@ -72,6 +72,13 @@
 	<!--
 	<hook type="after_prepare" src="scripts/res_android.js"/>
 	-->
+	
+	
+	<gap:splash gap:platform="android" platform="android" qualifier="ldpi" src="res/screens/android/screen-ldpi-portrait.png" />
+	<gap:splash gap:platform="android" platform="android" qualifier="mdpi" src="res/screens/android/screen-mdpi-portrait.png" />
+	<gap:splash gap:platform="android" platform="android" qualifier="hdpi" src="res/screens/android/screen-hdpi-portrait.png" />
+	<gap:splash gap:platform="android" platform="android" qualifier="xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />
+	
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
