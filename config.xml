@@ -53,6 +53,7 @@
     <icon platform="windows" src="res/icons/windows8/storelogo.png" width="50" height="50" />
     -->
     
+    <!--
     <gap:splash src="splash.png" />
     
     <gap:splash gap:platform="android" platform="android" qualifier="ldpi" src="res/screens/android/screen-ldpi-portrait.png" />
@@ -68,6 +69,7 @@
 	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-ipad-portrait.png" width="768" height="1024" />
 	<gap:splash platform="ios" gap:platform="ios" src="res/screens/ios/screen-ipad-portrait-2x.png" width="1536" height="2048" />
 	
+	-->
     
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-geolocation"  />
