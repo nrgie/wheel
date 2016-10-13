@@ -88,14 +88,15 @@
 	
     </platform>
     
-    <preference name="orientation" platform="ios" value="portrait" />
-    
+    <!--
+    <preference name="orientation" value="portrait" />
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
 	  <true/>
     </gap:config-file>
     <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
 	<false/>
     </gap:config-file>
+    -->
     
     <preference name="EnableWebGL" value="true" />
     <preference name="xwalkVersion" value="19+" />
