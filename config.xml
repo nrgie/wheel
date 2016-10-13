@@ -88,7 +88,7 @@
 	-->
 	<!--
 	<hook type="after_prepare" src="scripts/res_ios.js"/>
-	<preference name="orientation" value="portrait" />
+	
 	-->
 <!--
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
@@ -101,6 +101,7 @@
     </platform>
     
     
+    <preference name="orientation" value="portrait" />
     <preference name="EnableWebGL" value="true" />
     <preference name="xwalkVersion" value="19+" />
     <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
