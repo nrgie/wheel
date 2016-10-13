@@ -77,7 +77,6 @@
         <allow-intent href="market:*" />
 	<!--
 	<hook type="after_prepare" src="scripts/res_android.js"/>
-	
 	-->
     </platform>
     <platform name="ios">
@@ -89,7 +88,6 @@
 	
     </platform>
     <preference name="orientation" value="portrait" />
-    <preference name="fullscreen" value="true" />
     
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
 	  <true/>
